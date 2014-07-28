@@ -1,0 +1,145 @@
+/* Full Width Row */
+.row.fullWidth 
+{
+   width: 100% ;
+   margin-left: auto ;
+   margin-right: auto ;
+   max-width: initial ;
+}
+
+/* Pop CSS Effect */
+@-webkit-keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes pop {
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.pop {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.pop:hover, .pop:focus, .pop:active {
+  -webkit-animation-name: pop;
+  animation-name: pop;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+
+/* Home Page Descriptions */
+
+#home-desc
+{
+	text-align: center ; 
+}
+
+/* Parallax */
+
+
+#nav{
+	list-style: none;
+	position: fixed;
+	z-index: 100 ;
+	top: 50px ;
+	right: 20px;
+}
+
+#nav li{
+	margin: 0 0 15px 0;	
+}
+
+.setMargin
+{
+	margin-top: 10% ; 
+}
+
+.setMargin2
+{
+	margin-top:5% ; 	
+}
+
+.backgroundWhite1
+{
+	background-color: rgba(255,255,255,.2) ;
+	padding: 20px ; 	
+	border: solid white 2px;
+}
+
+.backgroundWhite2
+{
+	background-color: rgba(255,255,255,.6) ;
+	padding: 20px ; 	
+	border: solid #333333 2px;	
+}
+
+.backgroundWhite3
+{
+	background-color: rgba(51,51,51,.3) ;
+	padding: 20px ; 	
+	border: solid #333333 2px;	
+}
+
+#intro{
+	background:url(../img/slide1.jpg)  0 no-repeat fixed;
+	color: white;
+	background-size:  cover;     
+	height: 850px;
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+#second{
+	background: url(../img/slide2.jpg)  0 no-repeat fixed;
+	color: #333333;
+	height: 850px;
+	background-size:   cover;   
+	margin: 0 auto;
+	padding-top: 0px;
+}
+
+#third{
+	background: url(../img/slide3.jpg) 0 no-repeat fixed;
+	color: #333333;
+	height: 850px;
+	background-size:   cover;   
+	padding: 100px 0 0 0;	
+}
+
+#fourth{
+	background:url(../img/slide4.jpg)  0 no-repeat fixed;
+	height: 850px;
+	margin: 0 auto;
+	color:white ;
+	padding-top: 0px;
+}
+
+
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
